@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  background-color: #6d9ac4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.kotak {
+  background-color: white;
+  width: 45vw;
+  height: 50vh;
+  display: flex;
+  border-radius: 50px 50px;
+  overflow-x: hidden;
+}
+
+.tanda {
+  background-color: #ee6584;
+  width: 45%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding: 25px;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.halamanLogin {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 6px 12px;
+  border: 1px solid #dedede;
+  background-color: white;
+  border-radius: 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-size: medium;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border: 2px solid #dedede;
+  outline: none;
+}
+
+.btn {
+  outline: none;
+  border: 0px;
+  width: 165px;
+  height: 50px;
+  border-radius: 20px 20px;
+  align-self: center;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.loginBtn {
+  background-color: #ee6584;
+  color: white;
+}
+
+.btnToRegister {
+  background-color: white;
+  color: #ee6584;
+}
+
+.btnLogin:hover {
+  transform: scale(1.05);
+}
+
+.judulTanda {
+  text-shadow: 1px 1px #999999;
+}
+
+.teksTanda {
+  text-align: center;
+}
