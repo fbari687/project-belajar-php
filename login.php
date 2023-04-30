@@ -24,7 +24,7 @@
           <input type="text" name="email" id="email" size="50">
           <label for="password">Password</label>
           <input type="password" name="password" id="password">
-          <button type="submit" name="submit" class="btn loginBtn ">LOGIN</button>
+          <button type="submit" name="submit" class="btn loginBtn">LOGIN</button>
         </form>
       </div>
     </div>
