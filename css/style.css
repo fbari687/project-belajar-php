@@ -85,7 +85,7 @@ input[type="password"]:focus {
   color: #ee6584;
 }
 
-.btnLogin:hover {
+.btn:hover {
   transform: scale(1.05);
 }
 
