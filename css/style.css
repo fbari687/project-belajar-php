@@ -16,7 +16,7 @@
 .kotak {
   background-color: white;
   width: 45vw;
-  height: 50vh;
+  height: 70vh;
   display: flex;
   border-radius: 50px 50px;
   overflow-x: hidden;
@@ -95,6 +95,7 @@ input[type="password"]:focus {
 
 .judulTanda {
   text-shadow: 1px 1px #999999;
+  text-align: center;
 }
 
 .teksTanda {
