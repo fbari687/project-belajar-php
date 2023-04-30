@@ -32,8 +32,15 @@
     }
 
     .tanda {
-      background-color: aqua;
+      background-color: #ee6584;
       width: 45%;
+      display: flex;
+      color: white;
+      justify-content: center;
+      padding: 25px;
+      align-items: center;
+      flex-direction: column;
+      gap: 25px;
     }
 
     .halamanLogin {
@@ -66,21 +73,37 @@
       outline: none;
     }
 
-    .btnLogin {
+    .btn {
       outline: none;
       border: 0px;
       width: 165px;
       height: 50px;
-      background-color: #ee6584;
-      color: white;
       border-radius: 20px 20px;
       align-self: center;
       cursor: pointer;
       transition: .2s all;
     }
 
+    .loginBtn {
+      background-color: #ee6584;
+      color: white;
+    }
+
+    .btnToRegister {
+      background-color: white;
+      color: #ee6584;
+    }
+
     .btnLogin:hover {
       transform: scale(1.05);
+    }
+
+    .judulTanda {
+      text-shadow: 1px 1px #999999;
+    }
+
+    .teksTanda {
+      text-align: center;
     }
   </style>
 </head>
@@ -88,7 +111,11 @@
 <body>
   <div class="bg">
     <div class="kotak">
-      <div class="tanda"></div>
+      <div class="tanda">
+        <h1 class="judulTanda">Need Account?</h1>
+        <h3 class="teksTanda">Sign up and discover a great amount of new opportunities!</h3>
+        <a href="register.php"><button class="btn btnToRegister">Register</button></a>
+      </div>
       <div class="halamanLogin">
         <h1>Login</h1>
         <form action="" method="post" class="forms">
@@ -96,7 +123,7 @@
           <input type="text" name="email" id="email" size="50">
           <label for="password">Password</label>
           <input type="password" name="password" id="password">
-          <button type="submit" name="submit" class="btnLogin">LOGIN</button>
+          <button type="submit" name="submit" class="btn loginBtn ">LOGIN</button>
         </form>
       </div>
     </div>
